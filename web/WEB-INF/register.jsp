@@ -9,9 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Shopping ListPage</title>
+        <title>Shopping List Page</title>
     </head>
     <body>
-        <h1>Shopping List</h1>
+         <h1>Shopping List</h1>
+        <form action="" method="post">
+            <label>Username: </label>
+            <input type="text" name="user_name">
+            <input type="hidden" name="action" value="register">
+            <input type="submit" value="Register name">
+        </form>
+              <p>${message}</p>
     </body>
 </html>
